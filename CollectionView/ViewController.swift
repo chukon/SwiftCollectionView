@@ -8,14 +8,12 @@
 
 import UIKit
 
-var images = String[]()
-
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    var images = ["220.jpg"]
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        images = ["220.jpg"]
     }
 
     override func didReceiveMemoryWarning() {
